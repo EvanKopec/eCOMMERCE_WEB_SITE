@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border;
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card{
+    /* margin: 2rem; */
+    width: 35rem;
+    background-color: aqua;
+}
+
+.card__image {
+    object-fit: cover;
+    padding: 1rem;
+}
+
+.card__text {
+    padding: 2rem;
+    font-size: 1.4rem;
+    max-width: 100%;
+}
+
+.card__text--heading {
+    font-size: 1.4rem;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+
+.mb-sm {
+    margin-bottom: .75rem;
+}
+
+.header-nav {
+    background-color: white;
+}
+
+.home-section {
+    height: 200px;
+}
+
+.about-section {
+    height: 200px;
+}
+
+.products-section {
+    /* height: 200px; */
+}
+
+.contact-section {
+    height: 200px;
+}

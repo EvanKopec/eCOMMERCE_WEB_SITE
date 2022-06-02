@@ -17,19 +17,30 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
 .card{
-    /* margin: 2rem; */
-    width: 35rem;
-    background-color: aqua;
+    margin-top: 4rem;
+    margin-left: 0;
+    width: 20rem;
 }
 
 .card__image {
     object-fit: cover;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .card__text {
-    padding: 2rem;
+    /* padding: 2rem; */
     font-size: 1.4rem;
     max-width: 100%;
 }
@@ -57,7 +68,7 @@ img {
 }
 
 .products-section {
-    /* height: 200px; */
+    height: inherit;
 }
 
 .contact-section {

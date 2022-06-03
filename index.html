@@ -8,42 +8,101 @@
     <title>Cara Cara</title>
     </head>
     <body>
-        <header>
-            <h1>CARA CARA</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#products">PRODUCTS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li style="float:right"><a href="#cart">CART</a></li>
+        <header class="header-nav">
+            <nav class="container-flex">
+                <ul class="container-flex">
+                    <li class="nav-item"><a class="nav-item__link" href="#home">HOME</a></li>
+                    <li class="nav-item"><a class="nav-item__link" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-item__link" href="#products">PRODUCTS</a></li>
+                    <li class="nav-item"><a class="nav-item__link" href="#contact">CONTACT</a></li>
                 </ul>
+                <h1>CARA <img src="./assets/icons8-pottery-96.png" alt=""> CARA</h1>
+                    <div>
+                        <form>
+                             <label for="search"></label>
+                            <input type="text"> CART (0)
+                        </form>
+                    </div>
+                <hr>
             </nav>
         </header>
         <main>
-            <section id="home" class="home-section">HOME SECTION</section>
-            <section id="about" class="about-section">ABOUT SECTION</section>
-            <section id="products" class="products-section">
-                <h2>OUR PRODUCTS</h2>
+            <section id="home" class="home-section">
+                <div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe modi maiores dignissimos laborum aliquam! Perspiciatis quasi recusandae rem sequi dolores optio sint cum quo facilis distinctio. Obcaecati minima cum error.</p>
+                </div>
+
+            </section>
+            <section id="about" class="about-section">
+                <h2>ABOUT US</h2>
                 <hr>
-                <div class="card">
-                    <div class="card__image mb-sm">
-                        <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt=""> 
+                <div class="about-container">
+                    <div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At impedit, commodi dolore corrupti, veritatis, eum magnam totam molestiae velit deserunt illum ratione itaque numquam possimus provident quasi voluptatum quaerat tempore?</p>
                     </div>
-                    <div class="card__text">
-                        <div class="mb-sm">
-                            <p class="card__text--heading">Mundo Bowls</p> <span>$48.00</span>
-                        </div>
-                        <div>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi earum doloremque mollitia fuga blanditiis, sapiente odio eveniet quaerat, porro reiciendis accusantium atque assumenda illo dolores quo magni illum, eum in!</p>
-                            <a href="#">Learn More</a> <button>Add to Cart</button>
-                        </div>
+                    <div class="about-img-1">
+                        <img src="./assets/Vase_Dame_2048x2048.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nihil asperiores voluptatum nemo cumque quibusdam aliquam, animi quisquam. Dignissimos ullam quasi minus tempora tenetur aliquid officia error voluptas quidem est!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quas necessitatibus, eveniet, voluptas saepe impedit, dignissimos laborum ipsum aliquam corporis accusamus sunt est harum omnis id ipsa mollitia facilis amet!</p>
+                    </div>
+                    <div class="about-img-2">
+                         <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="">
                     </div>
                 </div>
             </section>
-            <section id="contact" class="contact-section">CONTACT SECTION</section>
+            <section id="products" class="products-section">
+                <h2>OUR PRODUCTS</h2>
+                <hr>
+                <div class="product-container">
+                    <div class="card">
+                        <img class="card__img" src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="product alt text here tk"> 
+                        <div class="card__text">
+                            <div class="mb-sm">
+                                <p class="card__text--heading">Mundo Bowls</p> <span>$48.00</span>
+                            </div>
+                            <div>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi earum doloremque mollitia fuga blanditiis, sapiente odio eveniet quaerat, porro reiciendis accusantium atque assumenda illo dolores quo magni illum, eum in!</p>
+                                <a href="#">Learn More</a> <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+            </section>
+            <section id="contact" class="contact-section">
+                <h2>CONTACT US</h2>
+                <hr>
+                <form>
+                    <label for="ename">EMAIL</label><br>
+                    <input type="text" id="ename" name="ename"><br>
+                    <label for="mcontent">MESSAGE</label><br>
+                    <input type="text" id="mcontent" name="mcontent"><br><br>
+                    <input type="send" value="SEND" style="float:right">
+                </form>
+            </section>
+
         </main>
-        <footer></footer>
+        <footer>
+            <div>
+                <img src="./assets/icons8-youtube-96.png" alt="">
+                <img src="./assets/icons8-facebook-96 (1).png" alt="">
+                <p>CARA</p>
+                <img src="./assets/icons8-pottery-96 (1).png" alt="">
+                <p>CARA</p>
+                <img src="./assets/icons8-twitter-96.png" alt="">
+                <img src="./assets/icons8-instagram-96.png" alt="">
+            </div>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, labore praesentium distinctio corrupti amet, atque beatae molestias quisquam quos nesciunt quidem quia, qui iusto architecto! At natus quibusdam sequi eaque.</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, laudantium! Non rerum, repellat nostrum vero velit a quam atque debitis tenetur blanditiis harum et est cupiditate molestias autem, numquam voluptatibus?</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quidem rerum mollitia omnis, natus repudiandae ad accusamus odit voluptas rem ex perspiciatis! Quia veniam unde eveniet rem dolorum odio iste!</p>
+            </div>
+        </footer>
     </body>
 </html>
